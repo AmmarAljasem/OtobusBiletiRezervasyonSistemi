@@ -1,5 +1,5 @@
 # OtobusBiletiRezervasyonSistemi
-## Yolcular 
+### Yolcular 
 •	YolcuID (Birincil Anahtar)
 •	Ad
 •	Soyad
