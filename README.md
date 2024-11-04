@@ -10,7 +10,7 @@
 •	Adres
 •	Cinsiyet
 ________________________________________
-## Otobüsler 
+### Otobüsler 
 •	OtobüsID (Birincil Anahtar)
 •	PlakaNo
 •	Kapasite
@@ -20,7 +20,7 @@ ________________________________________
 •	Klima
 •	ÜretimYılı
 ________________________________________
-## Yolculuk Değerlendirmeleri 
+### Yolculuk Değerlendirmeleri 
 •	DeğerlendirmeID (Birincil Anahtar)
 •	YolcuID (Yabancı Anahtar)
 •	SeferID (Yabancı Anahtar)
@@ -29,13 +29,13 @@ ________________________________________
 •	DeğerlendirmeTarihi
 •	GörüntülemeDurumu
 ________________________________________
-## Şehirler
+### Şehirler
 •	ŞehirID (Birincil Anahtar)
 •	ŞehirAdı
 •	Bölge
 •	PostaKodu
 ________________________________________
-## Rezervasyonlar
+### Rezervasyonlar
 •	RezervasyonID (Birincil Anahtar)
 •	SeferID (Yabancı Anahtar)
 •	YolcuID (Yabancı Anahtar)
@@ -44,13 +44,13 @@ ________________________________________
 •	YolculukTürü 
 •	Durum
 ________________________________________
-## Otogarlar
+### Otogarlar
 •	OtogarID (Birincil Anahtar)
 •	ŞehirID (Yabancı Anahtar)
 •	OtogarAdı
 •	Adres
 ________________________________________
-## Seferler
+### Seferler
 •	SeferID (Birincil Anahtar)
 •	OtobüsID (Yabancı Anahtar)
 •	KalkışOtogarID (Yabancı Anahtar)
@@ -60,7 +60,7 @@ ________________________________________
 •	Fiyat
 •	Durum
 ________________________________________
-## Ödemeler
+### Ödemeler
 •	ÖdemeID (Birincil Anahtar)
 •	RezervasyonID (Yabancı Anahtar)
 •	Tutar
@@ -68,14 +68,14 @@ ________________________________________
 •	ÖdemeYöntemi
 •	Durum
 ________________________________________
-## İndirim Kuponları
+### İndirim Kuponları
 •	KuponID (Birincil Anahtar)
 •	KuponKodu
 •	İndirimOranı
 •	GeçerlilikTarihi
 •	MinimumTutar
 ________________________________________
-## Bildirimler
+### Bildirimler
 •	BildirimID (Birincil Anahtar)
 •	YolcuID (Yabancı Anahtar)
 •	SeferID (Yabancı Anahtar)
@@ -85,7 +85,7 @@ ________________________________________
 •	Okundu
 •	BildirimTürü
  ________________________________________
-## Geri Bildirimler ve Şikayetler 
+### Geri Bildirimler ve Şikayetler 
 •	GeriBildirimID (Birincil Anahtar)
 •	YolcuID (Yabancı Anahtar)
 •	SeferID (Yabancı Anahtar)
@@ -94,14 +94,14 @@ ________________________________________
 •	Tarih
 •	Durum
 ________________________________________
-## Sadakat Programı 
+### Sadakat Programı 
 •	ProgramID (Birincil Anahtar)
 •	YolcuID (Yabancı Anahtar)
 •	ProgramAdı
 •	Puan
 •	Avantajlar
 ________________________________________
-## Şoförler 
+### Şoförler 
 •	ŞoförID (Birincil Anahtar)
 •	Ad
 •	Soyad
@@ -110,7 +110,7 @@ ________________________________________
 •	ÇalışmaDurumu
 •	DeneyimYılı
 ________________________________________
-## Operatörler 
+### Operatörler 
 •	OperatörID (Birincil Anahtar)
 •	OtogarID (Yabancı Anahtar)
 •	Ad
@@ -119,7 +119,7 @@ ________________________________________
 •	ÇalışmaDurumu
 •	İşeGirişTarihi
 ________________________________________
-## Geçiş Noktaları 
+### Geçiş Noktaları 
 •	GeçişID (Birincil Anahtar)
 •	SeferID (Yabancı Anahtar)
 •	ŞehirID (Yabancı Anahtar)
@@ -129,7 +129,7 @@ ________________________________________
 
 
 
-İlişkiler : 
+### İlişkiler : 
 1.	Yolcular - Rezervasyonlar: 1-N (Bir yolcu birden fazla rezervasyon yapabilir.)
 2.	Yolcular - Geri Bildirimler: 1-N (Bir yolcu birden fazla geri bildirimde bulunabilir.)
 3.	Yolcular - İndirim Kuponları: N-M (Bir yolcu birden fazla indirim kuponu kullanabilir.)
